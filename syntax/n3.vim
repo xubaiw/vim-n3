@@ -25,8 +25,8 @@ highlight link n3PathSymbol Keyword
 syntax region n3Iri start=/<\(-\|=\)\@!/ end=/\(-\|=\)\@<!>/
 highlight link n3Iri Constant
 
-syntax match n3String /"\([^"\r\n]\|\"\)*"/
-syntax match n3String /'\([^'\r\n]\|\'\)*'/
+syntax match n3String /"\([^"\r\n]\|\\"\)*"/
+syntax match n3String /'\([^'\r\n]\|\\'\)*'/
 syntax region n3String start=/"""/ end=/"""/
 highlight link n3String String
 
