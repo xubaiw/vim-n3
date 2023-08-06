@@ -1,12 +1,10 @@
-vim9script
-
-# very incomplete
-#
-# many taken from:
-#
-# https://github.com/william-vw/vscode-extension-n3
-# https://github.com/niklasl/vim-rdf
-# https://github.com/epitzer/vim-rdf-turtle
+" very incomplete
+"
+" many taken from:
+"
+" https://github.com/william-vw/vscode-extension-n3
+" https://github.com/niklasl/vim-rdf
+" https://github.com/epitzer/vim-rdf-turtle
 
 syntax match n3Comment /\v#.*$/
 highlight link n3Comment Comment
